@@ -1,0 +1,128 @@
+body{
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #333;
+}
+
+header{
+	background-color: rgba(13,70,83,0.78);
+	padding: 20px 0;	
+}
+
+#sec-intro{
+	background-image: url(../img/bg-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	
+	text-align: center;
+		
+}
+
+.bg-intro{
+	background-color: rgba(13,70,83,0.78);
+	min-height: 500px;
+	padding: 100px 0;
+}
+#sec-intro h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#sec-intro p{
+	font-size: 18px;
+	
+}
+
+.btn-medilab,
+.btn-medilab:hover{
+	background-color: #0cb8b6;
+	margin-top: 30px;
+}
+
+#sec-services{
+	padding: 40px 0;
+}
+
+#sec-services h2{
+	color:#000;
+	text-transform: uppercase;
+}
+
+#sec-services p{
+	color:#999;
+	
+}
+
+#sec-services h3{
+	color:#000;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.icono{
+	width: 60px;
+	height: 60px;
+	line-height: 50px;
+	background-color: #0cb8b6;
+	color: #fff;
+	display: block;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 600;
+	border-radius: 100%;
+	border: 3px solid #068887;
+	transition: all 0.5s ease-in-out;
+	
+}
+
+.icono:hover{
+	background-color:#068887;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+#sec-emergency article{
+	background-color:#0cb8b6;
+	color:#fff;
+	border:  1px solid #fff;
+}
+
+#sec-emergency a{
+	border:2px solid #fff;
+	
+}
+
+#sec-emergency a{
+	color: #fff;
+}
+
+.titulo {
+	font-size: 28px;
+	color: #000; 
+	text-transform:uppercase;
+	font-weight: 600px; 
+}
+
+.titulo::after {
+	content: "";
+	height: 4px;
+	background-color: #ffb737;
+	width: 60px;
+	display: block;
+	padding: 5px 0; 
+	margin: 15px 0; 	
+}
+
+#sec-doctors{
+	padding: 30px 0; 
+} 
+
+.borde{
+	border: 1px solid #ddd;
+	padding: 2px 5px 20px; 
+}
+
